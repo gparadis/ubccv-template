@@ -15,7 +15,9 @@ CV — including the separately paginated Publications Record — as
 A fully populated, real-world instance of this template (one UBC faculty
 member's actual CV, updated with it regularly) lives at
 **[gparadis/ubccv-paradis](https://github.com/gparadis/ubccv-paradis)** —
-useful to see what the data files look like in practice.
+useful to see what the data files look like in practice. The fictional sample
+that ships with this template is also rendered right here:
+[PDF](cv.pdf) · [Markdown](cv.md).
 
 ```
 data/*.yaml  +  data/publications.bib
@@ -47,8 +49,10 @@ $EDITOR data/*.yaml data/publications.bib
 git commit -am "My real CV"
 ```
 
-`make` re-renders `build/ubccv.pdf`. There is nothing to install beyond the
-above, and no proprietary software anywhere in the chain.
+`make` re-renders `build/ubccv.pdf`. When you are happy with the result,
+`make publish` refreshes `cv.pdf` and `cv.md` — the two renderings committed
+at the repository root so GitHub can display them. There is nothing to install
+beyond the above, and no proprietary software anywhere in the chain.
 
 ## Where things live
 
@@ -64,8 +68,10 @@ above, and no proprietary software anywhere in the chain.
 | `src/templates/cv.tex.j2` | The UBC layout (a Jinja-flavoured LaTeX template) |
 | `src/cvdata.py` | Loads the sources, formats references |
 | `src/latexfmt.py` | Inline markup and author-list formatting |
+| `src/render_md.py` | Renders the same CV as one Markdown file (`make publish`) |
 | `tools/` | Helpers for importing an existing Word CV, plus a QA check |
-| `Makefile` | `make`, `make tex`, `make check` |
+| `Makefile` | `make`, `make tex`, `make check`, `make publish` |
+| `cv.pdf`, `cv.md` | The current CV, committed so GitHub can render it; refresh with `make publish` |
 
 ## Editing conventions
 
@@ -177,7 +183,8 @@ ordinary LaTeX with `\VAR{...}` for values and `%%`-prefixed lines for Jinja
 statements, so it can be adjusted like any LaTeX document (fonts, margins,
 section formatting). For example, the header line on every page and the
 `\cvsection` macro are defined at the top of that file. Inline-markup and
-author-name handling live in `src/latexfmt.py`.
+author-name handling live in `src/latexfmt.py`. `src/render_md.py` mirrors the
+same structure in Markdown — if you change the section layout, update both.
 
 The official SAC Guide (the format this template implements) is maintained by
 UBC HR: <https://hr.ubc.ca/working-ubc/faculty-resources/tenure-and-faculty-appointments>.
