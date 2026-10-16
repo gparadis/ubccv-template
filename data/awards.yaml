@@ -1,0 +1,33 @@
+# SECTION 12: awards and distinctions.
+
+teaching:
+  - name: Example Teaching Excellence Award
+    organization: UBC Department of Statistics
+    dates: '2024'
+    details: ''
+
+scholarship_note: ''
+scholarship:
+  - name: Best Paper
+    organization: Example Society Annual Meeting
+    dates: '2025'
+  - name: Postdoctoral Fellowship
+    organization: Stanford University
+    dates: 2016 \ 2017
+
+hqp_note: Awards received by HQP under my supervision are listed below.
+hqp:
+  - hqp: Rosa Roe
+    name: Example Graduate Scholarship
+    organization: Example Foundation
+    dates: '2025'
+    details: $5 000
+  - hqp: Edgar Poe
+    name: Best Student Poster
+    organization: Example Society
+    dates: '2024'
+
+service:
+  - Example Society Service Award, 2024/06
+
+other: []

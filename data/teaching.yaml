@@ -1,0 +1,144 @@
+# SECTION 8: teaching.
+
+statement: >-
+  I teach statistical methodology and reproducible data analysis, with an emphasis on
+  bringing current research practice into undergraduate and graduate classrooms. My
+  courses combine theory with hands-on work on real data sets, and all course materials
+  are maintained in version control so students can see how the analysis was built.
+
+courses_ubc:
+  - group: 2025–2026
+    entries:
+      - session: 2025W1
+        course: STAT 200
+        scheduled_hours: '9'
+        class_size: '60'
+        lectures: '2'
+        tutorials: '6'
+        other: '1'
+      - session: 2025W2
+        course: STAT 406
+        scheduled_hours: '6'
+        class_size: '45'
+        lectures: '1'
+        tutorials: '3'
+        other: '1'
+  - group: 2024–2025
+    entries: []
+  - group: 2023–2024
+    entries:
+      - session: 2023W1
+        course: STAT 200
+        scheduled_hours: '9'
+        class_size: '75'
+        lectures: '2'
+        tutorials: '6'
+        other: '1'
+      - session: 2023W2
+        course: STAT 406
+        scheduled_hours: '8'
+        class_size: '40'
+        lectures: '2'
+        tutorials: '2'
+        labs: '2'
+        other: '1'
+
+course_descriptions:
+  - code: STAT 200
+    title: Elementary Statistics for Applications
+    credits: '3'
+    contact_pattern: 2-0-2
+    description: Descriptive statistics, probability, sampling distributions, confidence
+      intervals and hypothesis testing, applied to problems from across the sciences.
+  - code: STAT 406
+    title: Methods for Statistical Learning
+    credits: '3'
+    contact_pattern: 2-0-2
+    description: Model selection, regularization, resampling, and modern methods for
+      regression and classification, with reproducible case studies.
+
+graduate_research_supervision:
+  - group: MSc Supervision
+    entries:
+      - student: Rosa Roe
+        program: MSc
+        start: '2024'
+        finish: '2026'
+        role: Supervisor
+      - student: Edgar Poe
+        program: MSc
+        start: '2025'
+        role: Supervisor
+  - group: Undergraduate Research Assistants
+    entries:
+      - student: Alex Kim
+        program: RA
+        start: '2024'
+        role: Supervisor
+
+graduate_program_supervision:
+  - group: ''
+    entries:
+      - student: Morgan Lee
+        program: PhD
+        start: '2024'
+        role: Committee member
+
+continuing_education:
+  developed_and_presented:
+    - title: Workshop on reproducible research workflows
+      host: UBC Centre for Teaching, Learning and Technology
+      role: Co-facilitator
+      date: 2025/11/14
+      hours: '3.0'
+    - title: R for Data Analysis (two-part series)
+      host: UBC Library Research Commons
+      role: Instructor
+      date: 2024/10/xx
+      hours: '6.0'
+  attended:
+    - title: Tri-Agency Grant Writing Workshop
+      host: UBC SPARC
+      date: 2025/02/12
+      hours: '2.0'
+    - title: Data Privacy and Security Training
+      host: UBC
+      date: 2023/09/18
+      hours: '1.0'
+
+visiting_lecturer:
+  - university: UBC
+    course: STAT 406
+    topic: 'Guest lecture: cross-validation in practice'
+    date: 2025/03/11
+    hours: '1.5'
+
+other:
+  directed_studies:
+    - session: 2024W2
+      course: STAT 449
+      topic: Bayesian hierarchical models for ecological data
+      credits: '3'
+  work_learn:
+    - student: Priya Patel
+      program: UBC Work Learn
+      start: 2024/05/06
+      end: 2024/08/30
+
+courses_prior_to_ubc:
+  - group: STAB 52 (Introduction to Statistics) [Queen's University]
+    entries:
+      - session: '2016'
+        course: STAB 52
+        scheduled_hours: '4'
+        class_size: '90'
+        lectures: '2'
+        tutorials: '2'
+
+course_descriptions_prior_to_ubc:
+  - code: STAB 52
+    title: Introduction to Statistics
+    credits: '3'
+    institution: Queen's University
+    contact_pattern: 2-1-0
+    description: Core concepts of statistical reasoning for students in the life sciences.

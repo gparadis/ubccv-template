@@ -1,0 +1,57 @@
+# SECTIONS 10-11: service to the university and the community.
+
+preamble_statement: ''
+university:
+  statement: >-
+    I contribute to departmental and faculty committees with a focus on curriculum and
+    research computing, and I support the department's teaching evaluation processes.
+  inclusion:
+    - Member, EDI Committee (UBC Faculty of Science), 2023–
+  committees:
+    - Member, Statistics Curriculum Committee (UBC), 2023–
+    - Member, Master of Data Science Admissions Committee (UBC), 2022–2024
+  other:
+    - Peer reviewer for the Department of Statistics teaching evaluation process, 2024
+    - Organized the departmental seminar series, 2023
+
+community:
+  inclusion:
+    - Member, Equity, Diversity and Inclusion Committee, Example Statistical Society, 2024–
+  scholarly_societies:
+    - Member, Statistical Society of Canada, 2016–
+    - Treasurer, Local Chapter of the Example Statistical Society, 2022–2024
+  other_societies: []
+  scholarly_committees:
+    - Member, Program Committee, Example Society Annual Meeting 2025
+  other_committees: []
+  editorships: []
+  reviewer:
+    # A row with only `role` set (e.g. a year) prints as a heading in the table.
+    - role: '2026'
+    - role: Manuscript Reviewer
+      venue: Journal of Reproducible Methods
+      date: 2026/04
+    - role: Manuscript Reviewer
+      venue: Statistics in Practice
+      date: 2026/02
+    - role: Grant Proposal Reviewer
+      venue: NSERC
+      date: 2025/11
+    - role: '2025'
+    - role: Manuscript Reviewer
+      venue: Computational Statistics Quarterly
+      date: 2025/07
+  external_examiner:
+    - External examiner, MSc thesis (University of Example), 2025
+  consultant:
+    - Example Analytics Ltd., 2022–2023
+  other: []
+  popular_media:
+    - role: Interview
+      description: |-
+        [Why reproducibility matters for public data](https://example.org/news/why-reproducibility-matters)
+        Example News
+      date: 2025/03/14
+    - role: Article
+      description: '[Open data, better decisions](https://example.org/comment/open-data) Example Herald'
+      date: 2023/11/02

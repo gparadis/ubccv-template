@@ -1,0 +1,47 @@
+# SECTION 9: scholarly and professional activities.
+
+statement: >-
+  My research develops statistical methods for environmental and ecological data, with
+  emphasis on estimability under imperfect observation, reproducibility, and open
+  software. I work with government agencies and non-profit partners to make monitoring
+  programs and their analyses more informative for decision-making.
+
+grants:
+  - agency: Natural Sciences and Engineering Research Council of Canada (Discovery Grants program)
+    subject: Robust estimation for hidden ecological processes
+    comp: C
+    amount: 120 000
+    year: '2023'
+    pi:
+      - '**Jane Q. Doe**'
+  - agency: Canada Foundation for Innovation (John R. Evans Leaders Fund program)
+    subject: A computing cluster for environmental statistics
+    comp: C
+    amount: 200 000
+    year: '2022'
+    pi:
+      - '**Jane Q. Doe**'
+    coi:
+      - B. Baker
+      - C. Chen
+  - agency: UBC (Teaching and Learning Enhancement Fund program)
+    subject: Reproducible assignments for STAT 200 and STAT 406
+    comp: NC
+    amount: 15 000
+    year: '2024'
+    pi:
+      - '**Jane Q. Doe**'
+
+contracts:
+  - agency: Environment and Climate Change Canada
+    subject: Statistical review of national monitoring programs
+    comp: NC
+    amount: 25 000
+    year: '2023'
+    pi:
+      - '**Jane Q. Doe**'
+
+other: []
+conference_participation:
+  - Session Chair, Example Society Annual Meeting 2025, Calgary
+  - Discussant, Workshop on Open Science in Statistics, Banff International Research Station, 2024

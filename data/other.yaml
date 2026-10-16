@@ -1,0 +1,16 @@
+# SECTION 13: other relevant information (maximum one page).
+
+paragraphs:
+  - '**Research partnerships**: I work with federal and provincial monitoring agencies,
+    and with non-profit conservation organizations, to translate environmental data
+    into defensible statistical evidence. These partnerships shape both my methods
+    research and the training my students receive.'
+  - '**Open scholarship**: All software and course materials I develop are released
+    under open licenses. I maintain the [rexample](https://example.org/rexample)
+    package, which implements several of the methods from my research in a form that
+    practitioners can apply directly.'
+  - >-
+    In summary, my program combines methodological research, open software, and
+    sustained partnerships with data-using organizations. This mix keeps the research
+    grounded in real problems and gives students experience with the full arc from
+    question to reproducible answer.

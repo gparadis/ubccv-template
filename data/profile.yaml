@@ -1,0 +1,55 @@
+# SECTIONS 1-7: identity, education, employment, leaves of absence.
+# Replace every value below with your own. Run `make` to render the PDF.
+
+date: June 2026
+initials: JQD
+surname: Doe
+first_name: Jane
+middle_names: Quinn
+department: Department of Statistics
+faculty: Faculty of Science
+present_rank: Assistant Professor
+rank_since: July 1, 2022
+
+education:
+  - institution: University of Toronto
+    degree: PhD
+    subject: Statistics
+    dates: '2016'
+  - institution: McGill University
+    degree: M.Sc.
+    subject: Biostatistics
+    dates: '2011'
+  - institution: University of Victoria
+    degree: B.Sc.
+    subject: Mathematics
+    dates: '2009'
+
+special_qualifications:
+  - P.Stat., Statistical Society of Canada [2019– present]
+
+employment:
+  prior_university:
+    - organization: Stanford University
+      title: Postdoctoral Fellow
+      dates: 2016–2017
+    - organization: University of Toronto
+      title: Research Assistant, Teaching Assistant
+      dates: 2011–2016
+  prior_other:
+    - organization: Example Analytics Ltd.
+      title: Data Scientist
+      dates: 2017–2018
+  at_ubc:
+    - title: Assistant Professor
+      dates: 2022–
+    - title: Research Associate
+      dates: '2022'
+    - title: Postdoctoral Research Fellow
+      dates: 2018–2022
+  tenure_date: ''
+
+leaves_of_absence:
+  - organization: UBC
+    type: Parental leave
+    dates: 2024/09–2025/03
